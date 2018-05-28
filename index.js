@@ -1,5 +1,5 @@
 const decrypt = (cipher, encryptedText) => {
-	const alphaArray= 'abcdefghijklmnopqrstuvwxyz'.split('');
+  const alphaArray= 'abcdefghijklmnopqrstuvwxyz'.split('');
   const cipherArray = cipher.split('');
   let result = '';
 
